@@ -1,0 +1,39 @@
+{
+  "bpm": 120,
+  "target": {
+    "I": -16,
+    "TP": -1.5
+  },
+  "cuts": {
+    "30": {
+      "cues": 40,
+      "roles": {
+        "tick": 0,
+        "type": 16,
+        "move": 9,
+        "pop": 6,
+        "click": 4,
+        "end": 1
+      },
+      "rawLUFS": -19.7,
+      "gainDb": 3.7,
+      "LUFS": -16.1,
+      "truePeak": -1.9
+    },
+    "60": {
+      "cues": 80,
+      "roles": {
+        "tick": 0,
+        "type": 28,
+        "move": 14,
+        "pop": 14,
+        "click": 5,
+        "end": 1
+      },
+      "rawLUFS": -19.3,
+      "gainDb": 3.3,
+      "LUFS": -16,
+      "truePeak": -1.8
+    }
+  }
+}

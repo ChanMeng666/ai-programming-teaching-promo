@@ -1,0 +1,104 @@
+{
+  "version": "TECHNEST 2026",
+  "weeks": [
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-01-dev-tools-setup.mdx",
+      "sidebarLabel": "Week 1: AI Developer Toolkit Setup",
+      "h1": "AI Developer Toolkit Setup",
+      "description": "Install Cursor, Claude Code, Gemini CLI, and MCP servers. Run your first AI-driven Vercel deploy and internalise the Delegation Rules.",
+      "objectives": [
+        "Install and sign into the three AI coding environments we will use all term — Cursor (primary IDE), Claude Code (terminal-native AI), and Gemini CLI (free-tier scripting AI) — and know when to reach for each one.",
+        "Install a Skill and an MCP server into Claude Code / Cursor and describe, in one sentence, what each extension lets the AI do on the student's behalf.",
+        "Recognise and apply the Delegation Rules — know which operations to hand off to AI through a CLI or MCP server, and which (OAuth, DNS, provider-side credentials) the student must do with their own hands."
+      ]
+    },
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-02-portfolio-deploy.mdx",
+      "sidebarLabel": "Week 2: Deploy Your Personal Website",
+      "h1": "Deploy Your Personal Website",
+      "description": "Tech-stack recap, modern UI libraries, the professional CI/CD workflow, fork the Magic Portfolio Vercel template, and wire up a first lightweight AI clone with Gemini 2.5 Flash.",
+      "objectives": [
+        "Audit the tech stack of their own Week 1 site by asking the AI which framework and UI libraries it picked, and explain in their own words what each one is for.",
+        "Fork a production-ready Vercel template through natural-language requests, without ever cloning a repo with their own hands or running git clone.",
+        "Describe website content in plain English — bio, projects, links, theme — and watch Cursor translate that description into clean, committed source changes.",
+        "Trigger a Vercel deploy by prompt, read the deployment's build log when something goes wrong, and recover by describing the failure to the AI.",
+        "Wire a first lightweight AI clone into their portfolio using Gemini 2.5 Flash and a .env.local-managed API key — minimal UI, no streaming, no persistence yet (those land in Week 3)."
+      ]
+    },
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-03-ai-avatar.mdx",
+      "sidebarLabel": "Week 3: Add an AI Clone of Yourself",
+      "h1": "Add an AI Clone of Yourself",
+      "description": "Wire Gemini 2.5 Flash into your portfolio as a streaming chat widget that answers in your voice. Your first serious prompt-engineering task.",
+      "objectives": [
+        "Obtain an API key from Google AI Studio and wire it into both local .env.local and Vercel's production env — with the AI doing the plumbing and the student doing only the human-only OAuth moment.",
+        "Write a persona system prompt that makes Gemini 2.5 Flash answer as *you*, in your voice, with your background — the student's first serious piece of prompt engineering.",
+        "Describe a streaming chat UI in English and have Cursor implement it using the Vercel AI SDK, with no hand-written React."
+      ]
+    },
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-04-fullstack-neon.mdx",
+      "sidebarLabel": "Week 4: Go Full-Stack — Neon + Auth",
+      "h1": "Go Full-Stack — Neon + Auth",
+      "description": "Provision Neon Postgres + Neon Auth via MCP, ship a Drizzle-backed guestbook with Google sign-in. The hinge week from static site to real product.",
+      "objectives": [
+        "Provision a production Postgres database and an auth system by prompt — Neon MCP creates the DB, Drizzle defines the schema, and Neon Auth wires Google login, all through one conversation.",
+        "Recognise and execute the OAuth-consent manual moment — the one step the AI cannot do for you — without panicking or skipping ahead.",
+        "Ship a full-stack feature end-to-end (signed-in visitors leaving messages on your site) in a single 2-hour class, even though you've written zero lines of server code."
+      ]
+    },
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-05-vercel-blob.mdx",
+      "sidebarLabel": "Week 5: Image Uploads with Vercel Blob",
+      "h1": "Image Uploads with Vercel Blob",
+      "description": "Wire Vercel Blob into the guestbook so visitors can attach images. Direct-to-CDN uploads with signed tokens, content-type filtering, client-side compression.",
+      "objectives": [
+        "Provision a Vercel Blob store by prompt and have the AI wire it into an existing Next.js app end-to-end, including server-only upload tokens.",
+        "Describe a file-upload UX in English — drag-and-drop, preview, size cap, content-type filter — and get a working implementation back.",
+        "Verify a binary round-trip (pick a file → upload → persist URL in Neon → render from Vercel Blob CDN) as a first-class engineering skill."
+      ]
+    },
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-06-blog-system.mdx",
+      "sidebarLabel": "Week 6: Add a Blog System",
+      "h1": "Add a Blog System",
+      "description": "Graft a real /blog onto your Next.js portfolio with MDX, syntax-highlighted code blocks, and a valid RSS feed. Publish your first 500-word post.",
+      "objectives": [
+        "Graft a real blog onto an existing Next.js app by describing the feature to Cursor and pointing it at a reference template — without ever hand-editing route files.",
+        "Write and publish your first MDX post so that it renders on your live site with proper typography, a cover image, and a working permalink.",
+        "Ship a valid RSS feed that a feed reader can subscribe to, because shipping a blog without an RSS feed is shipping half a blog."
+      ]
+    },
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-07-slack-notifications.mdx",
+      "sidebarLabel": "Week 7: Real-Time Slack Notifications",
+      "h1": "Real-Time Slack Notifications",
+      "description": "Build a contact form with rate limiting + honeypot + IP hashing. Persist to Neon and ping a Slack webhook on every submission.",
+      "objectives": [
+        "Create a Slack App and obtain an incoming webhook URL — the minimum human work — then hand everything else to Cursor.",
+        "Build a contact form that writes to Neon and fires a Slack webhook in one server action, through a single prompt describing the feature end-to-end.",
+        "Think about notification-as-observability: why a tiny Slack ping on every real event is how senior engineers *actually* monitor small products in production."
+      ]
+    },
+    {
+      "file": "versioned_docs/version-2026-technest/weeks/week-08-typst-cv.mdx",
+      "sidebarLabel": "Week 8: Typst PDF Automation",
+      "h1": "Typst PDF Automation for Job Applications",
+      "description": "Drive a one-page CV and tailored cover letter through the Typst skill in Claude Code, sourced from your Neon profile row. The grand finale of the teaching phase.",
+      "objectives": [
+        "Invoke the Typst skill through Claude Code to turn structured profile data in Neon into a pixel-perfect, downloadable PDF — without writing a single line of Typst by hand.",
+        "Unify one data source (Neon profile) across two outputs — the portfolio site and the CV / cover letter PDFs — proving that data first, documents later is a senior engineering habit.",
+        "Ship one-click \"Download CV\" and \"Generate cover letter for \\[job description\\]\" buttons on your live portfolio that produce custom PDFs on demand."
+      ]
+    }
+  ],
+  "capstone": {
+    "file": "versioned_docs/version-2026-technest/capstone/capstone-spec.mdx",
+    "sidebarLabel": "Capstone Spec",
+    "h1": "TECHNEST Capstone Project",
+    "description": "Full specification for the 4-week TECHNEST capstone — team formation, three tracks (Campus Life · Personal Growth · Creative Tools), non-negotiable requirements, timeline, demo day rubric.",
+    "objectives": [],
+    "kicker": "Weeks 9–12 · Team AI Product",
+    "objective": "Over four weeks (9–12), teams of 2–4 students evolve the full-stack Next.js + Neon + Vercel codebase they built individually in Weeks 1–8 into a **deployed multi-user AI product** that serves a real audience beyond their own classmates."
+  }
+}

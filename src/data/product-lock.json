@@ -1,0 +1,114 @@
+{
+  "product": "ai-programming-teaching-project",
+  "commit": "ac468ab001a7c54001347546906e740b79f9d565",
+  "branch": "main",
+  "dirty": false,
+  "syncedAt": "2026-10-06T03:24:30.592Z",
+  "files": [
+    {
+      "from": "src/data/awards.json",
+      "to": "src/data/awards.json",
+      "role": "data: frozen TECHNEST 2026 awards",
+      "bytes": 6068,
+      "sha256": "46a04fd3f8c0532b0b47a900fd2becceded874e45cbd9f3eb90c0cf79b279741"
+    },
+    {
+      "from": "static/img/brand/logo.svg",
+      "to": "public/img/logo.svg",
+      "role": "brand mark",
+      "bytes": 439,
+      "sha256": "209a0bb30b03aa0c95b221075b00899deb4a3430d34f4d79e9a99bda57d9e5e0"
+    },
+    {
+      "from": "static/img/chan_logo_without_brand_black.svg",
+      "to": "public/img/chan-mark.svg",
+      "role": "instructor mark",
+      "bytes": 17220,
+      "sha256": "20940c5e4d18c1a1b9e134a713ae1ede6ac9d923bae139324d6b4f5c0e95cfef"
+    },
+    {
+      "from": "static/img/illustrations/hero.webp",
+      "to": "public/img/hero.webp",
+      "role": "illustration",
+      "bytes": 86780,
+      "sha256": "d929e9553ff2ad60c1bef1bb1e2b6419f56d589199f2ce12db7e3217310efaf8"
+    },
+    {
+      "from": "static/img/illustrations/home-build.webp",
+      "to": "public/img/home-build.webp",
+      "role": "illustration",
+      "bytes": 67894,
+      "sha256": "06f87814571002460cab58a70f2e122feaf5840be16c7524e376fac23b706c7c"
+    },
+    {
+      "from": "static/img/illustrations/home-learn.webp",
+      "to": "public/img/home-learn.webp",
+      "role": "illustration",
+      "bytes": 104428,
+      "sha256": "6336ecc14a106cd21dfd751b0750eb958d601e8fce71d53c301fb4c8a4166c12"
+    },
+    {
+      "from": "static/img/illustrations/home-community.webp",
+      "to": "public/img/home-community.webp",
+      "role": "illustration",
+      "bytes": 87298,
+      "sha256": "1e2373abb6c321d80b2369111af0b09e5367489783eb19cfdee123cac6ff5efa"
+    },
+    {
+      "from": "static/img/illustrations/capstone.webp",
+      "to": "public/img/capstone.webp",
+      "role": "illustration",
+      "bytes": 44082,
+      "sha256": "1700a3e9c7b38daba7b2d316ba27ac60d1c6cefb881c52b8262c13f8a114f8c1"
+    },
+    {
+      "from": "static/img/illustrations/footer-accent.webp",
+      "to": "public/img/footer-accent.webp",
+      "role": "illustration",
+      "bytes": 27526,
+      "sha256": "0f9e8acabc6b59509ef13a64656ab5b8e233a573f6c773623d899b6350ecab20"
+    },
+    {
+      "from": "static/img/certificates/linguapath.webp",
+      "to": "public/img/cert-linguapath.webp",
+      "role": "certificate render (issued credential)",
+      "bytes": 79960,
+      "sha256": "400779b4136facfe675534dfe9920c977cf6515d06dc38c58d18ff8eb2224882"
+    },
+    {
+      "from": "static/img/capstone/linguapath.webp",
+      "to": "public/img/cap-linguapath.webp",
+      "role": "student project screenshot",
+      "bytes": 45878,
+      "sha256": "75de20891f2843a89e4b5d0a2d88c479068c093c9f633584be6bf3f764860c96"
+    },
+    {
+      "from": "static/img/capstone/joborg-ai.webp",
+      "to": "public/img/cap-joborg-ai.webp",
+      "role": "student project screenshot",
+      "bytes": 144454,
+      "sha256": "6f3bd28c6798ae7b31fa9197995798c3bf4930beb5540979f00ac8fa7fc3c8ff"
+    },
+    {
+      "from": "static/img/capstone/icare.webp",
+      "to": "public/img/cap-icare.webp",
+      "role": "student project screenshot",
+      "bytes": 102700,
+      "sha256": "0525b75063c663247bf943b510c5c5f861732c2e32dcc5aa6aacef2ae62dd867"
+    },
+    {
+      "from": "static/img/capstone/avatars/abiodun-oyedele.webp",
+      "to": "public/img/avatar-joborg-ai.webp",
+      "role": "student avatar",
+      "bytes": 35836,
+      "sha256": "34bd04f6b6d0654c00119191bec5a07fcea28318611fb0437ef19670b8d38e90"
+    },
+    {
+      "from": "static/img/capstone/avatars/ikenna-anasieze.webp",
+      "to": "public/img/avatar-icare.webp",
+      "role": "student avatar",
+      "bytes": 7088,
+      "sha256": "72ec38737227448238ace763f725166f2c228460bc899c2d3873799a62a303e1"
+    }
+  ]
+}
