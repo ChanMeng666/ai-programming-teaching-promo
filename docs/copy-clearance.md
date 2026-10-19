@@ -17,7 +17,7 @@ Paths under `ChanMeng666/` are in the profile repo; all others are in
 | `Eight project-first weeks, then a four-week capstone.` | `Home/Programs`: "an eight-week, project-first path"; `capstone-spec.mdx`: "Over four weeks (9–12)" | gated: 8 week files baked |
 | `An AI tutor that answers from the lessons, and cites them.` | `worker/src/rag.ts` (retrieval over `docs-index`); the baked answer carries two `— Reference:` lines | gated: baked answer must contain a reference |
 | `A real answer from the live tutor. It took 17 s; shown faster.` | `src/data/chat-answer.json` — `totalMs` measured by `tools/bake-live.mjs` against the production API | honesty caption; number derived, never typed |
-| `Built and run by the instructor` | `ChanMeng666/data/profile/23-projects-oss-more.yaml:888` ("211 of 220 non-merge commits solo") | |
+| `Built and run by the instructor` | `ChanMeng666/data/profile/23-projects-oss-more.yaml:888` | |
 | `Cloudflare Workers AI` | `worker/wrangler.toml` (`AI` binding) | |
 | `Vectorize` | `worker/wrangler.toml` (`VECTORIZE`, index `docs-index`) | |
 | `Llama 3.1 8B` | `worker/src/chat.ts` (`@cf/meta/llama-3.1-8b-instruct-fp8`) | |
