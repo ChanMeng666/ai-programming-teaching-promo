@@ -10,7 +10,11 @@
 
 ### AI programming school product film
 
-<!-- FILM: ai-programming-school-film · 16:9 / 60 s — Chan uploads the video here in GitHub's web editor -->
+
+
+https://github.com/user-attachments/assets/7210bf67-963e-4e11-8936-f53e79130fa5
+
+
 
 ▶ Watch on YouTube: https://youtu.be/DKCzZCQTQgA
 
